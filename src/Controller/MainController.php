@@ -6,8 +6,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
 
 class MainController extends AbstractController{
-    #[Route('/main')]
-    public function test() : Response
+    #[Route('/', name:'mainApp')]
+    public function main() : Response
     {
         return $this->render('Main/main.html.twig');
     }
