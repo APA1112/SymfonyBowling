@@ -17,19 +17,19 @@
 
 
     <div class="container-fluid light d-flex justify-content-center align-items-center gap-5 text-white" style='cursor:pointer;'>
-        <div class="border border-white rounded text-center" style="height: 100%; width: 100%;"> 
+        <div class="border border-white rounded text-center d-grid" style="height: 100%; width: 100%;"> 
             <i class="ti ti-ticket" style='font-size: 8rem;'></i> 
-            <h2 class="text-white">Cine</h2>
+            <a href='#' class="text-white text-decoration-none font-wight-bold fs-5">Cine</a>
         </div>
 
-        <div class="border border-white rounded text-center" style="height: 100%; width: 100%;">
+        <div class="border border-white rounded text-center d-grid" style="height: 100%; width: 100%;">
             <i class="ti ti-pizza" style='font-size: 8rem;'></i>
-            <h2 class="text-white">Pizzon Pizza</h2>
+            <a href='#' class="text-white text-decoration-none fs-5">Pizzon Pizza</a>
         </div>
 
-        <div class="border border-white rounded text-center" style="height: 100%; width: 100%;">
+        <div class="border border-white rounded text-center d-grid" style="height: 100%; width: 100%;">
             <i class="ti ti-cash-banknote-filled" style='font-size: 8rem;'></i>
-            <h2 class="text-white">Contabilidad</h2>
+            <a href="{{path('contabilidad_route')}}" class="text-white text-decoration-none fs-5">Contabilidad</a>
         </div>
     </div>
 {% endblock %}

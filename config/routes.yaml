@@ -1,3 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+contabilidad_route:
+  path: /contabilidad
+  controller: App\ContabilidadBundle\Controller\ContabilidadController::index
