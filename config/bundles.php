@@ -13,4 +13,5 @@ return [
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
     App\Bundles\ContabilidadBundle\ContabilidadBundle::class => ['all' => true],
+    App\Bundles\CineBundle\CineBundle::class => ['all' => true],
 ];
