@@ -17,8 +17,12 @@
         {% endblock %}
     </head>
     <body class='bg-dark container-fluid'>
+        <header>
+            {% block header %}
+            {% include "./navbar.html.twig" %}
+            {% endblock %}
+        </header>
         {% block body %}
-        {% include "./navbar.html.twig" %}
         {% endblock %}
     </body>
 </html>
