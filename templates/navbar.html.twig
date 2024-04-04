@@ -1,7 +1,7 @@
 {% set current_path = app.request.get('_route')|split('_') %}
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{path('mainApp')}}"></i> ETYH</a>
+        <a class="navbar-brand" style='font-size: 3rem; font-weight: bold' href="{{path('mainApp')}}"></i> ETYH</a>
         <div class="col-auto" id="navbarNav">
             {% if app.user %}
                 <ul class="navbar-nav ml-auto">
@@ -11,7 +11,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{ path('login_App') }}" class="btn btn-secondary">Log out <i class="ti ti-user-off"></i></a>
-                       
                     </li>
                 </ul> 
             {% endif %}
