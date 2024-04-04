@@ -1,23 +1,17 @@
 {% extends './base.html.twig' %}
 {% block header %}
-    <div class="container-fluid">
-        <div class="row justify-content-between align-items-center text-white">
-            <div class="col">
-                <h2 class="text-white" style='font-size: 3rem'>ETYH</h2>
-            </div>
-            <div class="col-auto">
-                <a href='{{path('login_App')}}' class="btn btn-secondary">
-                    Log Out
-                    <i class="ti ti-user-off"></i>
-                </a>
-            </div>
-        </div>
-    </div>
+{% include './navbar.html.twig' %}
 {% endblock %}
 {% block body %}
-    <div class="container-fluid light d-flex justify-content-center align-items-center gap-5 text-white" style='cursor:pointer;'>
-        {% include "@Contabilidad/contabilidadTag.html.twig" %}
-        {% include "@Cine/cineTag.html.twig" %}
-        {% include "@Pizzon/pizzonTag.html.twig" %}
+    <div class="container-fluid light d-flex vh-100 justify-content-center align-items-center text-white" style="cursor:pointer;">
+        <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
+            {% include "@Contabilidad/contabilidadTag.html.twig" %}
+        </div>
+        <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
+            {% include "@Cine/cineTag.html.twig" %}
+        </div>
+        <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
+            {% include "@Pizzon/pizzonTag.html.twig" %}
+        </div>
     </div>
 {% endblock %}
