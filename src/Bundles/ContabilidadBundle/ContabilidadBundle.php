@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ContabilidadBundle;
+namespace App\Bundles\ContabilidadBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
