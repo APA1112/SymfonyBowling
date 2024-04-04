@@ -3,16 +3,16 @@
 #    controller: App\Controller\DefaultController::index
 contabilidad_route:
   path: /contabilidad
-  controller: App\ContabilidadBundle\Controller\ContabilidadController::index
+  controller: App\Bundles\ContabilidadBundle\Controller\ContabilidadController::index
 
 contabilidad_section1:
   path: /contabilidad/section1
-  controller: App\ContabilidadBundle\Controller\ContabilidadController::section1
+  controller: App\Bundles\ContabilidadBundle\Controller\ContabilidadController::section1
 
 contabilidad_section2:
   path: /contabilidad/section2
-  controller: App\ContabilidadBundle\Controller\ContabilidadController::section2
+  controller: App\Bundles\ContabilidadBundle\Controller\ContabilidadController::section2
 
 contabilidad_section3:
   path: /contabilidad/section3
-  controller: App\ContabilidadBundle\Controller\ContabilidadController::section3
+  controller: App\Bundles\ContabilidadBundle\Controller\ContabilidadController::section3

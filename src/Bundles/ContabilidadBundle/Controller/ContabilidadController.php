@@ -1,6 +1,6 @@
 <?php
 
-namespace App\ContabilidadBundle\Controller;
+namespace App\Bundles\ContabilidadBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
