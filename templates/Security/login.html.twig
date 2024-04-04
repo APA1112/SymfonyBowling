@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Log in{% endblock %}
+
+{% block header %}
+    <h2 class='text-white'>ETYH</h2>
+{% endblock %}
+{% block body %}
+    <form method="post">
+        <h1 class='text-white'>Access to  the application</h1>
+        <label for='_username'>
+        <h6 class='text-white'>Username: </h6>
+        <input type="text" name="_username" placeholder="User" required autofocus>
+        </label>
+        <label for='_password'>
+        <h6 class='text-white'>Password: </h6>
+        <input type="password" name="_password" placeholder="Password" required>
+        </label>
+        <button type="submit">Log in</button>
+    </form>
+{% endblock %}
