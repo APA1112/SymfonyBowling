@@ -32,3 +32,19 @@ cine_section2:
 cine_section3:
   path: /cine/section3
   controller: App\Bundles\CineBundle\Controller\CineController::cineSection3
+
+pizzon_route:
+  path: /pizzon
+  controller: App\Bundles\PizzonBundle\Controller\PizzonController::pizzonIndex
+
+pizzon_section1:
+  path: /pizzon/section1
+  controller: App\Bundles\PizzonBundle\Controller\PizzonController::pizzonSection1
+
+pizzon_section2:
+  path: /pizzon/section2
+  controller: App\Bundles\PizzonBundle\Controller\PizzonController::pizzonSection2
+
+pizzon_section3:
+  path: /pizzon/section3
+  controller: App\Bundles\PizzonBundle\Controller\PizzonController::pizzonSection3
