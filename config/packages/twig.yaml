@@ -2,6 +2,7 @@ twig:
     default_path: '%kernel.project_dir%/templates'
     paths: 
          '%kernel.project_dir%/src/Bundles/ContabilidadBundle/Resources/templates': Contabilidad
+         '%kernel.project_dir%/src/Bundles/CineBundle/Resources/templates': Cine
 
 when@test:
     twig:

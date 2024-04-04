@@ -16,3 +16,19 @@ contabilidad_section2:
 contabilidad_section3:
   path: /contabilidad/section3
   controller: App\Bundles\ContabilidadBundle\Controller\ContabilidadController::section3
+
+cine_route:
+  path: /cine
+  controller: App\Bundles\CineBundle\Controller\CineController::cineIndex
+
+cine_section1:
+  path: /cine/section1
+  controller: App\Bundles\CineBundle\Controller\CineController::cineSection1
+
+cine_section2:
+  path: /cine/section2
+  controller: App\Bundles\CineBundle\Controller\CineController::cineSection2
+
+cine_section3:
+  path: /cine/section3
+  controller: App\Bundles\CineBundle\Controller\CineController::cineSection3
