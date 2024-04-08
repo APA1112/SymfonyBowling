@@ -6,6 +6,7 @@
     <div class="container-fluid light d-flex vh-100 justify-content-center align-items-center text-white" style="cursor:pointer;">
         {% if is_granted('ROLE_DEVELOPER') %}
             <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
+                {% include "@CineBundle/Card/card.html.twig" %}
             </div>
         {% endif %}
         {% if is_granted('ROLE_ADMIN') %}
