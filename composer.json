@@ -40,7 +40,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/",
-            "ContabilidadBundle\\": "bundles/ContabilidadBundle"
+            "SymfonyBowling\\CineBundle\\": "../CineBundle/src"
         }
     },
     "autoload-dev": {
@@ -83,5 +83,14 @@
         "symfony/stopwatch": "5.4.*",
         "symfony/web-profiler-bundle": "5.4.*",
         "zenstruck/foundry": "^1.37"
-    }
+    },
+
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../CineBundle",
+            "canonical": true
+        }
+    ]
+    
 }
