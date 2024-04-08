@@ -1,7 +1,6 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-cine_bundle:
+cine_main:
     path: /cine
     controller: App\Controller\CineController::cineBundle
-    methods: ['GET']
