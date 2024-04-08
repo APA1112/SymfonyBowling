@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "../CineBundle",
-                "reference": "fac8e37d93174762d5c499b5da9885fbabc77ccd"
+                "reference": "2253848acf06a7f5b93ab8b7a4b43f1d2e789b21"
             },
             "require": {
                 "doctrine/dbal": "^3",
