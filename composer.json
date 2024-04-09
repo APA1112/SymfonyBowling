@@ -88,9 +88,8 @@
 
     "repositories": [
         {
-            "type": "path",
-            "url": "../CineBundle",
-            "canonical": true
+            "type": "vcs",
+            "url": "https://github.com/APA1112/CineBundle.git"
         }
     ]
     
