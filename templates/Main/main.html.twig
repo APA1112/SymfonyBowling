@@ -11,6 +11,7 @@
         {% endif %}
         {% if is_granted('ROLE_ADMIN') %}
             <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
+                <div {{ vue_component('Hello', { 'name': app.user.userName }) }}></div>
             </div>
             <div class="container-fluid light d-flex justify-content-center align-items-center text-white">
             </div>
