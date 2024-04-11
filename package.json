@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "vue-loader": "^17.4.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-vue": "^2.23.1",
+    "vue": "^2.7.16"
+  }
+}

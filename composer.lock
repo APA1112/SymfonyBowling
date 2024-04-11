@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af6497541ae1d458408e927a3b5a206d",
+    "content-hash": "6440f9d4e0371c871a5c7e7a02ae9638",
     "packages": [
         {
             "name": "apa1112/cinebundle",
