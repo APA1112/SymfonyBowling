@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/APA1112/CineBundle.git",
-                "reference": "7d8a6b03af4fdcff3081ded95e4dbc0c6d6c1ff6"
+                "reference": "1e389dbea9962991771ca6aa4866f8a515a8c4ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/APA1112/CineBundle/zipball/7d8a6b03af4fdcff3081ded95e4dbc0c6d6c1ff6",
-                "reference": "7d8a6b03af4fdcff3081ded95e4dbc0c6d6c1ff6",
+                "url": "https://api.github.com/repos/APA1112/CineBundle/zipball/1e389dbea9962991771ca6aa4866f8a515a8c4ed",
+                "reference": "1e389dbea9962991771ca6aa4866f8a515a8c4ed",
                 "shasum": ""
             },
             "require": {
@@ -54,12 +54,12 @@
             },
             "autoload": {
                 "psr-4": {
-                    "App\\": "src/"
+                    "App\\CineBundle\\": "src/"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "App\\Tests\\": "tests/"
+                    "App\\CineBundle\\Tests\\": "tests/"
                 }
             },
             "scripts": {
@@ -81,7 +81,7 @@
                 "source": "https://github.com/APA1112/CineBundle/tree/master",
                 "issues": "https://github.com/APA1112/CineBundle/issues"
             },
-            "time": "2024-04-09T08:59:59+00:00"
+            "time": "2024-04-09T16:29:57+00:00"
         },
         {
             "name": "doctrine/annotations",
